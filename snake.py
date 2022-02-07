@@ -110,7 +110,7 @@ def main(stdscr):
             msg_p1 = "Game Over!\n"
             msg_p2 = "Curses snake game\n"
             msg_p3 = "Based on Indian Pythonista's code\n"
-            msg_p4 = "With the help of Caleb Curry's curses tutorial\n"
+            msg_p4 = "With the help of Tech with Tim's curses tutorial\n"
             stdscr.addstr(sh // 2, sw // 2 - len(msg_p1) // 2, msg_p1,colors[0])
             stdscr.addstr(sh // 2 + 1, sw // 2 - len(msg_p2) // 2, msg_p2,colors[2])
             stdscr.addstr(sh // 2 + 2, sw // 2 - len(msg_p3) // 2, msg_p3,colors[0])
